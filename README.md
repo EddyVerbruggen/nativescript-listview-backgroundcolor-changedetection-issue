@@ -1,5 +1,3 @@
-This repo reproduces [a NativeScript issue]() (GIF on the left) where you need to scroll a ListView item out of view (and back in) to see the updated background color.
+This is a fix for the problem shown in the master branch.
 
-The "fix" branch (GIF on the right) suggests a fix that works for me but may not be the best solution.
-
-<img src="media/listview-background-color-changedetection-issue.gif" width="280px"/>   <img src="media/listview-background-color-changedetection-issue-fixed.gif" width="280px"/>
+It patches `node_modules/tns-core-modules/ui/core/view/view.ios.js`, see lines 37-43.
