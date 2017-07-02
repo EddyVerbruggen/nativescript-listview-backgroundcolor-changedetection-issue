@@ -1,4 +1,4 @@
-This repo reproduces [a NativeScript issue]() (GIF on the left) where you need to scroll a ListView item out of view (and back in) to see the updated background color.
+This repo reproduces [a NativeScript issue](https://github.com/NativeScript/NativeScript/issues/4489) (GIF on the left) where you need to scroll a ListView item out of view (and back in) to see the updated background color.
 
 [The "fix" branch](https://github.com/EddyVerbruggen/nativescript-listview-backgroundcolor-changedetection-issue/tree/fix) (GIF on the right) suggests a fix that works for me but may not be the best solution.
 
